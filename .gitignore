@@ -1,0 +1,9 @@
+diarization/backsync/*
+diarization/test_wav_out/*
+diarization/test_wav_out/*
+
+segmentation/csv_files3/*
+segmentation/separated_wavfiles3/*
+segmentation/testout/*
+
+*.wav

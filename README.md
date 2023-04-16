@@ -10,3 +10,17 @@
 
 * the **Corpus** folder contains the transcribed LIBE meetings.
 
+## ASRpipeline.py
+
+Run `ASRpipeline.py <path_to_wavfile>` to process a wav file.
+
+### Parameters
+
+* `wavfile`: the wavfile you want to process
+* `-rttm_output`: path to where the rttm files need to be stored if you use diarization.
+* `-segmentation_output_folder`: the folder where the results of segmentation will be stored. 
+* `-segmentation_bookkeep_file`: The name of the json file with the segmentation bookkeep. This file keeps track of how the wav file is segmented.
+* `-asr_model`: The name of the wav2vec model that is used for the asr. default="facebook/wav2vec2-base-10k-voxpopuli-ft-en",
+* `-kenlm_model`: The name of the knlm model that is used for decoding the ASR results.
+* `-transcriptions_output_folder`: "Folder where the transcriptions will be stored.
+* `-logfolder`: The folder where the logfiles will go.

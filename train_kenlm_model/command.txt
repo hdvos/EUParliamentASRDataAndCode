@@ -1,0 +1,1 @@
+kenlm/build/bin/lmplz --text europarl_for_kenlm.txt --arpa europarl-5-gram.arpa -o 5 -T temp/

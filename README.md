@@ -10,6 +10,15 @@
 
 * the **Corpus** folder contains the transcribed LIBE meetings.
 
+* **Evaluate** contains the script to calculate the WER
+
+* **hotwords_experiment** contains data and scripts for the hotwords experiment.
+
+* **make_wordlist** contains the scripts that were used to create the wordlist for the hotwords experiment.
+
+* **manual_transcriptions** contains the manual transcriptions used for the evaluation.
+
+
 ## ASRpipeline.py
 
 Run `ASRpipeline.py <path_to_wavfile>` to process a wav file.
